@@ -300,6 +300,43 @@
     height: 25px;
     font-size: 16px;
   }
+
+  /* SERVICES HERO */
+  .chero {
+    flex-direction: column;
+    gap: 70px;
+    margin-top: 150px;
+    padding: 0 30px;
+  }
+
+  .shero-content {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .chero .chero-content .hello {
+    width: 400px;
+    text-align: center;
+  }
+
+  .container {
+    width: 90%;
+    background: #fff;
+    padding: 30px 10px;
+  }
+
+  .chero .chero-content .bye {
+    width: 350px;
+    text-align: center;
+  }
+
+  .opening-hours {
+    margin-bottom: 0;
+  }
+
+  .opening-hours p {
+    margin: 0;
+  }
 }
 
 @media (max-width: 480px) {
@@ -322,5 +359,3 @@
     font-size: 14px;
   }
 }
-
-
